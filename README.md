@@ -39,3 +39,7 @@ to track the dvc
 ``bash
 dvc repro
 ```
+
+-- Firstly created params.yaml with parameter as confif file
+-- Then created get_data, load_data and split data pyhton files
+-- Then simulataneously ttacke changes in dvc.yaml file and ran the command as ```bash dvc repro```
