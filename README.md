@@ -36,7 +36,7 @@ git push origin main
 ```
 
 to track the dvc 
-``bash
+```bash
 dvc repro
 ```
 
