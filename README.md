@@ -34,3 +34,8 @@ git remote add origin https://github.com/nik-vaibhav18/mlops_wine_quality.git
 git branch -M main
 git push origin main
 ```
+
+to track the dvc 
+``bash
+dvc repro
+```
