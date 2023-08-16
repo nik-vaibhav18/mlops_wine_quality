@@ -52,3 +52,27 @@ dvc metrics show
 ```bash
 dvc metrics diff
 ```
+tox command
+```bash
+tox
+```
+-- for rebuilding
+```bash
+tox -r
+```
+pytest coomand
+```bash
+pytest -v
+```
+
+
+to build packages of the program written
+
+```bash
+pip install -e .
+```
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
