@@ -40,7 +40,7 @@ to track the dvc
 dvc repro
 ```
 
-1.  Firstly created params.yaml with parameter as confif file
+1.  Firstly created params.yaml with parameter as config file
 2.  Then created get_data, load_data and split data pyhton files
 3.  Then simulataneously ttacke changes in dvc.yaml file and ran the command as ``` dvc repro```
 
@@ -60,7 +60,7 @@ tox
 ```bash
 tox -r
 ```
-pytest coomand
+pytest command
 ```bash
 pytest -v
 ```
