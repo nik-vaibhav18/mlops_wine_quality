@@ -40,6 +40,15 @@ to track the dvc
 dvc repro
 ```
 
--- Firstly created params.yaml with parameter as confif file
--- Then created get_data, load_data and split data pyhton files
--- Then simulataneously ttacke changes in dvc.yaml file and ran the command as ```bash dvc repro```
+1.  Firstly created params.yaml with parameter as confif file
+2.  Then created get_data, load_data and split data pyhton files
+3.  Then simulataneously ttacke changes in dvc.yaml file and ran the command as ``` dvc repro```
+
+to tack the metrics params and its performance below are followinbg commans
+```bash
+dvc metrics show
+```
+
+```bash
+dvc metrics diff
+```
